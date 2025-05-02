@@ -2,6 +2,12 @@
 
 This project demonstrates how to automate browser interactions using **Selenium with Python**, including navigating web pages, simulating searches, clicking links, and filling out login forms.
 
+🔹 Note:
+* Run all these scripts in Jupyter Notebook, because the browser will only close when the Jupyter session ends. Otherwise, it will remain open even after the script finishes running.
+
+* However, when you run the same script in an IDE, the browser closes automatically as soon as the script completes.
+
+
 ---
 
 ## 📜 Requirements
