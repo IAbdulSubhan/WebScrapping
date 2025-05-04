@@ -11,7 +11,7 @@ time.sleep(2)
 # calculate h1
 prev_height = driver.execute_script("return document.body.scrollHeight")
 
-while True:
+while True:  
 	print(f"Webpage height: {prev_height:,} pixels")
 	driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
