@@ -34,7 +34,12 @@ element.send_keys("example text", Keys.ENTER)
 element.click()
 ```
 
-### ✅ Install Selenium
+### ✅ 1: Install Selenium
 
 ```bash
 pip install selenium
+```
+### ✅ 2: Install WebDriver Manager
+
+```bash
+pip3 install webdriver-manager
