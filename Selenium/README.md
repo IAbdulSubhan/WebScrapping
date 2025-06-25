@@ -43,3 +43,13 @@ pip install selenium
 
 ```bash
 pip3 install webdriver-manager
+```
+
+| Method         | Priority | Example                                     |
+| -------------- | -------- | ------------------------------------------- |
+| `ID`           | ✅✅✅      | `driver.find_element(By.ID, "myid")`        |
+| `Name`         | ✅✅       | `driver.find_element(By.NAME, "myname")`    |
+| Relative XPath | ✅✅       | `//input[@value='Customer Menu']`           |
+| CSS Selector   | ✅        | `input.button-input[value='Customer Menu']` |
+| Absolute XPath | ❌        | `/html/body/div[1]/form/input[2]`           |
+
