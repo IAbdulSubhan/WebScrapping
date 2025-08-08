@@ -29,3 +29,8 @@ Install commonly used packages with:
 ```bash
 pip install -r requirements.txt
 
+```
+
+
+## Playwright Automation
+https://iabdulsubhan.github.io/Playwright/
